@@ -1,6 +1,6 @@
 {
   "name": "wegi-weather",
-  "homepage": "https://ritobruno.github.io/wegi-weather/",
+  "homepage": "https://ritobruno.github.io/wegi-weather/tree/master/public",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
