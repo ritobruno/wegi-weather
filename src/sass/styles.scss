@@ -31,6 +31,44 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
+.weather-preloader {
+  width: 500px;
+  padding: 40px 20px;
+  margin: 0 auto;
+
+  .requesting {
+    
+  }
+}
+
+.location {
+  width: 500px;
+  box-sizing: border-box;
+  margin: 10px auto 10px;
+}
+
+.svg-icon-location {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  padding: 10px 0;
+}
+.svg-icon-location path,
+.svg-icon-location polygon,
+.svg-icon-location rect {
+  fill: #9ca4a8;
+}
+.svg-icon-location circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.city-weather {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+
 .dayWeekItem {
   background-color: white;
   @include box-shadow;
@@ -54,13 +92,25 @@ body {
     text-transform: uppercase;
   }
 
-  .icon-weather{
+  .icon-weather {
     height:90px;
     width:45px;
     border-radius: 0 90px 90px 0;
-    background:green;
+    background-color: transparent;
     margin-left: -20px;
     margin-right: 30px;
+  }
+
+  .Clear {
+    background-color: #fcba08;
+  }
+
+  .Rain {
+    background-color: #29abe2;
+  }
+
+  .Clouds {
+    background-color: #d2e5ec;
   }
 
   .date {
